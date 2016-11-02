@@ -230,7 +230,7 @@ th {
   h2,
   h3 {
     page-break-after: avoid;
-	    text-decoration: none;
+	 
   }
   select {
     background: #fff !important;
@@ -400,7 +400,7 @@ h3,
 .h3 {
   margin-top: 20px;
   margin-bottom: 10px;
-      text-decoration: none;
+     
 }
 h1 small,
 .h1 small,
@@ -450,7 +450,7 @@ h2,
 h3,
 .h3 {
   font-size: 24px;
-      text-decoration: none;
+      
 }
 h4,
 .h4 {
