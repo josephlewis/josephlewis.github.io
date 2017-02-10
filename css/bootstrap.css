@@ -4417,6 +4417,7 @@ a.list-group-item.active > .badge,
     text-decoration: none;
   -webkit-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
+		  color: #333333;
 }
 .thumbnail > img,
 .thumbnail a > img {
@@ -4431,10 +4432,11 @@ a.thumbnail:focus,
 a.thumbnail.active {
   border-color: #428bca;
       text-decoration: none;
+	  color: #333333;
 }
 .thumbnail .caption {
   padding: 9px;
-
+	color: #333333;
       text-decoration: none;
 }
 .alert {
