@@ -398,7 +398,11 @@ test &lt;- combined_scatter_random[-samp, ]</code></pre>
 <div id="prediction" class="section level1">
 <h1>Prediction!</h1>
 <pre class="r"><code>Prediction &lt;- predict(model, test)
-table(Prediction, test$Artist)</code></pre>
+table(Prediction, test$Artist)
+
+Prediction                       DAVID, Jacques-Louis INGRES, Jean-Auguste-Dominique
+  DAVID, Jacques-Louis                          83324                          48340
+  INGRES, Jean-Auguste-Dominique                66494                         101842</code></pre>
 <p>Random Forest predicts with 62% accurracy.</p>
 </div>
 
