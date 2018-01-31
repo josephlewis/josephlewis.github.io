@@ -1,0 +1,49 @@
+---
+title: Joseph Lewis 
+output:
+  html_document
+---
+******** 
+
+Email | [josephlewis1992@gmail.com](mailto:josephlewis1992@gmail.com)
+<br>
+Linkedin | [https://uk.linkedin.com/in/josephlewis1992](https://uk.linkedin.com/in/josephlewis1992)
+
+
+
+******** 
+
+**MSc Geographical Information Science** | Distinction - **78%**
+<br>
+*University of Leicester*
+<br><br>
+Dissertation - **80%** | *Royal Institution of Chartered Surveyors Prize 2017* 
+<br>[The Suitability of Using Least Cost Path Analysis in the Prediction of Roman Roads in the Highland and Lowland Zones of Roman Britain](https://josephlewis.github.io/Dissertation.pdf)
+<br><br>
+Introduction to GIS - **75%**; Programming in R - **87%**; Earth Observation and Remote Sensing - **84%**; Spatial Information Science - **75%**; Geographical Visualisation - **67%**; GIS Research Methods in the Field - **73%**
+<br><br>
+**BSc (Hons) Applied Geology** | Upper Second Class - University of Plymouth
+
+******** 
+
+Interested in **Geospatial Data science**; **Digital Humanities**; **Quantitative Archaeology** 
+
+Proficient in **QGIS**; **ArcGIS**; **R**
+
+********
+
+## Data Projects
+********
+
+### [Statistical Analysis of two Neoclassical Artists](https://josephlewis.github.io/Painting_analysis.html) |
+This project investigated whether there was a statistical difference between the saturation values used by two Neoclassical artists: one of which recommended to *"never use bright colours [...] they are anti-historic. It is better to fall into grey than into bright colours."* Through this study, it was possible to determine that the two artists did use different saturation values in their art. 
+
+********
+
+### TBC
+
+********
+
+## GIS Projects
+
+### TBC
