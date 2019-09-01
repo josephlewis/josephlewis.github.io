@@ -149,9 +149,7 @@ library(leaflet.extras)</code></pre>
 <div id="loading" class="section level1">
 <h1>Loading</h1>
 <hr />
-<pre class="r"><code>digimon_list &lt;- read.csv(paste0(wd$data, &quot;/DigiDB_digimonlist.csv&quot;), stringsAsFactors = FALSE)
-
-digimon_moves &lt;- read.csv(paste0(wd$data, &quot;/DigiDB_movelist.csv&quot;), stringsAsFactors = FALSE)</code></pre>
+<pre class="r"><code>digimon_list &lt;- read.csv(paste0(wd$data, &quot;/DigiDB_digimonlist.csv&quot;), stringsAsFactors = FALSE)</code></pre>
 <pre class="r"><code>head(digimon_list)</code></pre>
 <pre><code>##   Number Digimon       Stage Type Attribute Memory Equip.Slots Lv.50.HP
 ## 1      1 Kuramon        Baby Free   Neutral      2           0      590
@@ -167,21 +165,6 @@ digimon_moves &lt;- read.csv(paste0(wd$data, &quot;/DigiDB_movelist.csv&quot;), 
 ## 4      68       77       95       76       61
 ## 5      98       54       59       95       86
 ## 6      52      109       93       52       76</code></pre>
-<pre class="r"><code>head(digimon_moves)</code></pre>
-<pre><code>##              Move SP.Cost     Type Power Attribute Inheritable
-## 1   Wolkenapalm I       3 Physical    65      Fire         Yes
-## 2  Wolkenapalm II       6 Physical    85      Fire         Yes
-## 3 Wolkenapalm III       9 Physical   105      Fire         Yes
-## 4   Burst Flame I       3    Magic    55      Fire         Yes
-## 5  Burst Flame II       6    Magic    75      Fire         Yes
-## 6 Burst Flame III       9    Magic    95      Fire         Yes
-##                                                  Description
-## 1  Physical attack, 65 Fire damage to one foe. 95% accuracy.
-## 2  Physical attack, 85 Fire damage to one foe. 95% accuracy.
-## 3 Physical attack, 105 Fire damage to one foe. 95% accuracy.
-## 4     Magic attack, 55 Fire damage to one foe. 95% accuracy.
-## 5     Magic attack, 75 Fire damage to one foe. 95% accuracy.
-## 6     Magic attack, 95 Fire damage to one foe. 95% accuracy.</code></pre>
 </div>
 <div id="data-exploration" class="section level1">
 <h1>Data Exploration</h1>
