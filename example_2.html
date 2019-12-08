@@ -214,7 +214,7 @@ loc2 = sp::SpatialPoints(loc2)
 
 westhawk &lt;- sp::SpatialPoints(cbind(600000, 139900), proj4string = crs(road))
 
-# Due to directional = FALSE, the LCP will only be computed from the origin to the destination. This is done as the direction of intended movement is believed to be from the ironworking districts in the Weald to Canterbury in the north-east of the study area. 
+# Due to directional = TRUE, the LCP will only be computed from the origin to the destination. This is done as the direction of intended movement is believed to be from the ironworking districts in the Weald to Canterbury in the north-east of the study area. 
 
 # If the direction of movement is not known, it is suggested to set directional = FALSE. This will then compute the LCP from the origin to the destination and vice-versa, with the results stored in a list. 
 lcp &lt;- leastcostpath::create_lcp(cost_surface = cs, origin = loc1, destination = loc2, directional = TRUE)</code></pre>
